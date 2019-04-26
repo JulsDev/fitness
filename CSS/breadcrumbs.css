@@ -7,13 +7,16 @@
   font-family: 'OpenSans_LightItalic', sans-serif;
   color: #221f1f;
 }
+
 .breadcrumbs__item-main{
   padding-right: 3px;
   text-decoration: underline;
 }
+
 .breadcrumbs__item-separator{
   padding-right: 3px;
 }
+
 .breadcrumbs__item-main .breadcrumbs__link{
   color: #f89513;
 }

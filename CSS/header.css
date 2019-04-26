@@ -1,0 +1,86 @@
+/* -------------- CSS for header -------------- */
+
+.header{
+  /* width: 1200px; */
+  height: 75px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background: #151314;
+  color: #ffffff;
+}
+
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo,
+.contacts {
+  display: flex;
+  width: 50.0%;
+}
+
+
+.contacts__dropdown-triangle{
+  display: none;
+  position: absolute;
+  width: 32px;
+  height: 0px;
+  border: 12px solid;
+  margin-top: 10px;
+  border-top: 14px solid transparent;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-bottom-color: ffffff;
+}
+
+.contacts__dropdown-menu{
+  display: block;
+  position: absolute;
+  text-align: left;
+  background: ffffff;
+  box-shadow: 4px 4px 10px #cecece;
+  border-radius: 5px;
+  width: 160px;
+  height: 75px;
+  padding: 18px;
+  margin-top: 40px;
+  display: none;
+}
+
+.contacts__dropdown:hover .contacts__dropdown-menu{
+  display: block;
+}
+.contacts__dropdown:hover .contacts__dropdown-triangle{
+  display: block;
+}
+.contacts__dropdown:hover .contacts__dropdown-schedule{
+  color: #e9d4b9;
+}
+
+.contacts__dropdown-menu::before{
+  content: "";
+  position: absolute;
+  height: 30px;
+  left: 0px;
+  right: 0px;
+  top: -30px;
+}
+
+.contacts__dropdown-schedule{
+  color: #b46f14;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.dropdown__time{
+  font-size: 12px;
+  font-family: 'OpenSans_Bold', sans-serif;
+  color: #f89513;
+}
+.dropdown__lunch{
+  font-size: 12px;
+  font-family: 'OpenSans_Light', sans-serif;
+  color: #151314;
+}

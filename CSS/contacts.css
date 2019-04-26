@@ -1,0 +1,17 @@
+.contacts{
+  flex-direction: column;
+}
+.contacts__number,
+.contacts__dropdown{
+  display: flex;
+  justify-content: flex-end;
+  font-style: normal;
+  font-family: 'OpenSans_Bold', sans-serif;
+  line-height: 20px;
+}
+
+.contacts__phone{
+  text-align: right;
+  color: #ffffff;
+  font-size: 21px;
+}

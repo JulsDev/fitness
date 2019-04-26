@@ -1,0 +1,26 @@
+@import url('./fonts.css');
+@import url('./normalize.css');
+@import url('./base.css');
+
+@import url('./animation.css');
+@import url('./header.css');
+@import url('./logo.css');
+@import url('./menu.css');
+@import url('./contacts.css');
+@import url('./breadcrumbs.css');
+@import url('./pagination.css');
+@import url('./form-reg.css');
+@import url('./social-icon.css');
+@import url('./banner.css');
+@import url('./features.css');
+@import url('./news-month.css');
+@import url('./news.css');
+
+@import url('./partners.css');
+@import url('./rewies.css');
+@import url('./services.css');
+@import url('./content-intro.css');
+@import url('./content-rewies.css');
+@import url('./content-services.css');
+
+@import url('./footer.css');

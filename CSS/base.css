@@ -1,0 +1,65 @@
+
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;          /* у body по умолчанию отступы 8px */
+  background: #ffffff; 
+  font-size: 14px;
+  font-family: 'OpenSans_Light', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  font-weight: normal;
+}
+
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button{
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-width: 1200px;
+  min-height: 100%;
+}
+
+.container {
+  overflow: hidden;
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+

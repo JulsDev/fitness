@@ -1,0 +1,85 @@
+/* -------- Услуги --------*/
+.services__title{
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: 'OpenSans_Bold', sans-serif;
+  padding-bottom: 50px;
+}
+
+ .services_list{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
+}
+
+ .services__item{
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 33.0%;
+  padding-bottom: 45px;
+}
+
+.services__item-type{
+  max-width: 250px;
+}
+
+.services__item-image{
+  position: relative;
+  max-width: 250px;
+  max-height: 155px;
+  border-radius: 5px;
+}
+
+.item__pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-bottom: 25px;
+}
+
+.services__item-image .item__pic::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #27273e;
+  opacity: .7;
+  transition: 0.5s;
+}
+
+.services__item-image:hover .item__pic::after{
+  cursor: pointer;
+  opacity: 0;
+}
+
+.name__type{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f5f5f5;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'OpenSans_Bold', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.header__type{
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-family: 'OpenSans_Bold', sans-serif;
+}
+
+.item__text{
+  font-size: 15px;
+  line-height: 1.5em;
+  font-family: 'OpenSans_Light', sans-serif;
+}

@@ -1,0 +1,59 @@
+.social__net{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: 'OpenSans_Bold', sans-serif;
+  color: #312e2e; 
+}
+
+.social__title{
+  padding-bottom: 15px;
+}
+
+.social__icon,
+.social__icon-list,
+.social__icon-item{
+  display: inline-flex;
+}
+
+.social__icon-item{
+  padding: 5px 15px; 
+}
+.social__icon-link{
+  display: block;
+  position: relative;
+}
+  
+.social__icon-link:after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../img/social_net/social_sprites.png") center center no-repeat;
+}
+.social__icon-vk:after{
+  background-position: -41px -39px;
+  width: 12px;
+  height: 7px;
+}
+.social__icon-fb:after{
+  background-position: -77px -10px;
+  width: 6px;
+  height: 13px;
+}
+.social__icon-gplus:after{
+  background-position: -10px -10px;
+  width: 15px;
+  height: 9px;
+}
+.social__icon-twit:after{
+  background-position: -10px -39px;
+  width: 11px;
+  height: 9px;
+}
+.social__icon-mail:after{
+  background-position: -45px -10px;
+  width: 12px;
+  height: 9px;
+}

@@ -1,0 +1,74 @@
+
+ .wrapper--intro{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: initial;
+  background: url("../img/intro.png") center center no-repeat;
+  background-size: cover;     /* Масштабируем фон */
+}
+
+/* ------- Делаем картинку затемненной ------------ */
+.banner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: initial;
+}
+.banner::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #27273e;
+  opacity: .50;
+}
+
+
+/* ------- Центральнаый блок ------------ */
+ .wrapper__container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navigation{
+  animation: bounce 2s;
+}
+
+.navigation__logo{
+  width: 172px;
+}
+
+.navigation__button{
+  padding-top: 40px;
+}
+
+.nav__submit{
+  width: 172px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #f89513;
+  background: #f89513;
+  color: #fff;;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  padding: 15px 20px;
+}
+
+.nav__submit:hover{
+  background: #151314;
+  border: #151314;
+}
+
+

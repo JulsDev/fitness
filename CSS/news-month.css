@@ -1,0 +1,27 @@
+/* -- Топ новости -- */
+.news__month{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 50px;
+}
+.news__month-title{
+  font-family: 'OpenSans_Bold', sans-serif;
+  padding-bottom: 10px;
+}
+.news__month-period{
+  color: #656464;
+  padding-bottom: 20px;
+}
+.news__month-item{
+  margin: 15px auto 15px;
+}
+.news__month-link{
+  width: 160px;
+  height: 120px;
+}
+
+

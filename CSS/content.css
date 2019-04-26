@@ -1,0 +1,36 @@
+/* -------------- CSS for page ---------------- */
+
+.main__container{
+  display: flex;
+  margin: 0 auto;
+  padding-right: 75px;
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  padding-top: 38px;
+}
+.page__content{
+  width: 75%;
+}
+
+/* --------------- Сайдбар-------------- */
+/* .menu{
+  margin-bottom: 16px;
+} */
+
+
+/* ------------  Правая часть страницы -----------*/
+.page__banner {
+  max-width: 100%;
+  text-align: center;
+}
+
+.banner__image{
+  display: block;
+  max-width: 100%;
+}
+
+
